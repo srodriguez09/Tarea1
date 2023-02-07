@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title> Tienda en Línea</title>
+    <meta charset="" UTF-8>
+    <meta name="description" content="Pagina de la leccion 2" />
+    <meta name="keywords" content="html5, css, web, fidelitas" />
+    <link rel="stylesheet" type="text/css" href="./css/Estilos.css" />
+    <link rel="stylesheet" type="text/css" href="./css/menu.css" />
+</head>
+
+<body>
+    <!-- Esta etiqueta al navegador que es un encabezado-->
+    <header class="header">
+        <nav class="nav">
+            <a href="Index.html" class="logo nav-link"> VideoJuegos</a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="nosotros.html">&LeftTriangleBar;</a>
+                </li>
+
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="playstation.html">&RightTriangleBar;</a>
+                </li>
+
+
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="playstation.html">PlayStation</a>
+                </li>
+
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="xbox.html">Xbox</a>
+                </li>
+
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="nintendo.html">Nintendo</a>
+                </li>
+
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="pc.html">PC</a>
+                </li>
+
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="directos.html">Directos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+
+                <li class="nav-menu-item">
+                    <a class="nav-menu-link nav-link" href="ayuda.html">Ayuda</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <aside id="barraLateral">
+
+        <h2> Juego del año</h2>
+        <p> Elden Ring es un videojuego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco
+            Entertainment. El videojuego surge de una colaboración entre el director y diseñador Hidetaka Miyazaki y el
+            novelista de fantasía George R. R. Martin. </p>
+        &nbsp;
+
+
+        <center> <img style="width: 80%; " src="img/elderring.jpg"></center>
+
+    </aside>
+    <section id="contenido">
+        <h2>Consolas Principales</h2>
+        <article>
+            <header>PlayStation 5</header>
+            <p class="descripcion"><cite>El auténtico corazón de esta consola, el circuito integrado que aglutina tanto
+                    la CPU como la GPU, ha salido de los laboratorios de una AMD que parece estar en mejor forma que
+                    nunca. No obstante, los responsables de Sony, al igual que los de Microsoft, se han esforzado
+                    durante los últimos meses para defender que la APU de su nueva consola apuesta por elementos
+                    personalizados que la desmarcan de las soluciones que AMD está colocando en el mercado. </p>
+            <figure>
+                &nbsp;
+                <img src="img/ps5.png" alt="PlayStation 5" width="400" />
+                <figcaption> Imagen con fines ilustrativos</figcaption>
+            </figure>
+        </article>
+        <article>
+            &nbsp;
+            <header>Xbox Series X</header>
+            <p class="descripcion"><cite> Xbox Series X es la pieza central de una estrategia quirúrgicamente diseñada
+                    para ponérselo a Sony más difícil que nunca en una competencia directa de la que Nintendo se
+                    desvinculó con el lanzamiento en 2006 de Wii. Durante los próximos meses veremos qué respaldo damos
+                    los jugadores tanto a PlayStation 5 como a la consola más ambiciosa de Microsoft, pero objetivamente
+                    esta última máquina llega a la línea de salida con varias batallas ganadas de antemano. La guerra
+                    aún debe ser librada, pero Xbox Series X intimida. Veamos si realmente es tan fiera como promete.
+            </p>
+            <figure>
+                &nbsp;
+                <img src="img/xbox.jpeg" alt="Xbox Series X" width="400" />
+                <figcaption> Xbox Series X</figcaption>
+            </figure>
+        </article>
+        <article>
+            &nbsp;
+            <header>Nintendo Switch</header>
+            <p class="descripcion"><cite> La consola tiene una pantalla táctil de 6.2” y lleva en su interior un SoC
+                    NVIDIA Tegra modificado para Nintendo, incorpora 32 GB de almacenamiento ampliables con una ranura
+                    para tarjetas microSD de hasta 2 TB, dispone de 4 GB de RAM LPDDR4 y conexión Wifi de 2.4 y 5 GHz
+                    802.11 ac, aunque también es posible conectarla mediante Ethernet con un adaptador USB. Podemos usar
+                    la consola como portátil o como consola de escritorio cuando la acoplamos a su Dock que se conecta
+                    mediante el puerto USB de tipo C, el Dock nos ofrece 3 conexiones USB y una conexión HDMI para
+                    conectar a una televisión o proyector. </p>
+            <figure>
+                &nbsp;
+                <img src="img/nintendo.jfif" alt="Asus Vivobook" width="400" />
+                <figcaption> Nintendo Switch</figcaption>
+            </figure>
+        </article>
+        <article>
+            <h2>Top Consolas mas vendidas</h2>
+            <table border="0">
+                <thead id="encabezadoTabla">
+                    <tr>
+                        <th> # </th>
+                        <th> Nombre </th>
+
+                    </tr>
+                </thead>
+                <tbody id="tablaResumen">
+                    <tr>
+                        <td>1</td>
+                        <td>PlayStation 5</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Xbox Series X</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Nintendo Switch</td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </article>
+
+    </section>
+    <footer id="piePagina">
+        Derechos reservados &COPY; 2023 <address class="lineaDireccion">Rosales, Alajuela</address>
+        <address class="lineaDireccion">8806-0268</address>
+    </footer>
+
+</body>
+
+</html>
